@@ -26,6 +26,10 @@ ul#horizontal-list {
   border-radius: 5px;
 }
 
+p {
+  max-width: 1920px;
+}
+
 li {
   float: left;
 }
@@ -44,6 +48,31 @@ li a:hover {
 
 .active {
   background-color: #800000;
+}
+
+.main-header {
+  position: relative;
+  overflow: hidden;
+}
+.main-header h1 {
+  padding: 150px;
+  position: relative;
+  z-index: 2;
+}
+.main-header img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.15;
+}
+
+.infotext {
+  margin: auto;
+  width: 60%;
+  border-bottom: solid #333;
+  clear: both;
 }
 
 #page {
