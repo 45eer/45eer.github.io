@@ -1,5 +1,5 @@
 body {
-  font-size: 28px;
+  font-size: 20px;
   max-width: 1200px;
   margin: 0 auto;
   background-color: #666666;
@@ -103,6 +103,5 @@ li a:hover {
     display: block;
     overflow:auto;
     text-align:center;
-    float:left;
     border-radius: 5px;
 }
